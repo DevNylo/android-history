@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: Android ;
+    src: url(fontes/idroid.otf) ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #EBE5C5;
+}
+
+/* PRIMEIRO MENU */
+
+header{
+    background-image: linear-gradient( to bottom, #18993a, #0b5e21, #074919, #084117);
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    
+}
+
+header > h1{
+    color: white;
+    font-size: 3em;
+    padding: 20px;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 27%);
+}
+
+header > p{
+    margin: auto;
+    color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 27%);
+}
+
+/* MENU DE NAVEGAÇÃO */
+
+
+menu{
+    background-image: linear-gradient( to bottom,  #073f16, #052a0f);
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+    padding: 20px;
+}
+
+ul > li{
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+ul > li > a:hover{
+    color: #084117;
+    background-color: rgb(1, 14, 1);
+    transition: 0.5s;
+}
+/* ARTIGO 1 */
+
+section{
+    padding: 20px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+section > h1{
+    margin: 10px;
+    font-family: Android;
+    color: #387151;
+    font-size: 1.7em;
+}
+
+section > h2{
+    margin: 10px;
+    padding: 5px;
+    font-family: Android;
+    color: #387151;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.3), rgba(0, 128, 0, 0.200), rgba(0, 128, 0, 0.100), rgba(0, 128, 0, 0.050));
+}
+
+
+section > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    margin: 10px;
+    text-align: justify;
+    line-height: 2em;
+}
+
+section > p > strong{
+    color: #0C6323;
+}
+
+section > p > a{
+    background-color: #cffbdb;
+    color: #084117;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+}
+
+section > p > a::after{
+    content: '\00A0\1F517';
+}
+
+section > img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+/* VÍDEO INCORPORADO */
+
+.v-android{
+    background-color:#052a0f;
+    margin: 0px -20px 30px -20px;
+    padding: 30px
+}
+
+.v-android iframe{
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+/* ULTIMA PARTE */
+
+aside{
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.46);
+}
+
+aside > h2{
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: #0a4a1b;
+    color: white;
+}
+
+aside > p{
+    background-color: #83E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    padding: 20px;
+    text-align: justify;
+    line-height: 2em;
+
+}
+
+aside > p > strong{
+    color: #041b0a;
+}
+
+aside > p > a{
+    background-color: #cffbdb;
+    color: #084117;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+
+}
+
+aside > p > a::after{
+    content: '\00A0\1F517';
+}
+
+
+/* ALGUMAS ALTERAÇÕES NA BORDA */
+
+
+aside .last{
+    border-radius: 0px 0px 10px 10px;
+    background-color: #83E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    padding: 20px;
+    text-align: justify;
+    line-height: 2em;
+}
+
+/*------------------------------*/
+
+aside > ul{
+    background-color: #83E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+
+}
+
+aside > ul > li{
+    font-weight: normal;
+    display: list-item;
+    
+}
+
+footer{
+    background-color: #041b0a;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 50px;
+}
+
+footer > a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+
+}
